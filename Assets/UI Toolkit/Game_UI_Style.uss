@@ -1,0 +1,48 @@
+.root {
+    flex-grow: 1;
+}
+
+.score {
+    position: absolute;
+    top: 5%;          /* 5% von oben */
+    font-size: 32px;
+    unity-font-style: bold;
+    color: white;
+
+    -unity-text-outline-color: black;
+    -unity-text-outline-width: 0.5px;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Player 1 links */
+.left {
+    left: 5%;         /* 5% vom linken Rand */
+}
+
+/* Player 2 rechts */
+.right {
+    right: 5%;        /* 5% vom rechten Rand */
+}
+
+.win-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.win-label {
+    font-size: 72px;
+    color: white;
+    -unity-font-style: bold;
+    -unity-text-outline-color: black;
+    -unity-text-outline-width: 1px;
+}

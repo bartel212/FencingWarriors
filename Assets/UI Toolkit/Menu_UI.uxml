@@ -1,0 +1,24 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Menu_UI_Style.uss" />
+    <ui:VisualElement name="Background" class="background">
+
+        <!-- Main Menu -->
+        <ui:VisualElement name="MainPanel" class="board-panel">
+            <ui:Label text="FENCING WARRIORS" name="Title" class="title" />
+            <ui:Button text="START GAME" name="StartButton" class="menu-button" />
+            <ui:Button text="SETTINGS" name="SettingsButton" class="menu-button" />
+            <ui:Button text="END GAME" name="QuitButton" class="menu-button quit" />
+        </ui:VisualElement>
+
+        <!-- Settings Menu -->
+        <ui:VisualElement name="SettingsPanel" class="board-panel">
+            <ui:Label text="SETTINGS" class="title" />
+            <ui:Label text="Music Volume" class="slider-label" />
+            <ui:Slider name="MusicSlider" low-value="0" high-value="1" value="1" class="slider" />
+            <ui:Label text="SFX Volume" class="slider-label" />
+            <ui:Slider name="SfxSlider" low-value="0" high-value="1" value="1" class="slider" />
+            <ui:Button text="BACK" name="BackButton" class="menu-button" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

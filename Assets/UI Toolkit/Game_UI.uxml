@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Game_UI_Style.uss?fileID=7433441132597879392&amp;guid=1327622b4f1be0a40b791d0e44aad907&amp;type=3#Game_UI_Style" />
+    <ui:Label text="Player 1: 0" name="P1Label" class="score left" />
+    <ui:Label text="Player 2: 0" name="P2Label" class="score right" />
+    <ui:VisualElement name="WinScreen" class="win-screen" style="display: none;">
+        <ui:Label text="" name="WinLabel" class="win-label" />
+    </ui:VisualElement>
+</ui:UXML>

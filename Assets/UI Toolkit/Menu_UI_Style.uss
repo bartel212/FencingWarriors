@@ -1,0 +1,68 @@
+.background {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 20, 40);
+}
+
+.board-panel {
+    align-items: center;
+    justify-content: center;
+    padding: 40px 50px;
+    min-width: 320px;
+
+    /* Wooden board look — swap background-color for background-image once you assign the sprite */
+    background-color: rgb(139, 90, 43);
+    border-color: rgb(80, 45, 10);
+    border-width: 6px;
+    border-radius: 4px;
+}
+
+.title {
+    font-size: 36px;
+    color: rgb(255, 240, 200);
+    -unity-font-style: bold;
+    margin-bottom: 24px;
+    -unity-text-outline-color: rgb(60, 30, 0);
+    -unity-text-outline-width: 1px;
+}
+
+.menu-button {
+    font-size: 22px;
+    color: rgb(255, 240, 200);
+    background-color: rgb(100, 60, 20);
+    border-color: rgb(60, 30, 0);
+    border-width: 3px;
+    border-radius: 4px;
+    padding: 10px 32px;
+    margin: 6px 0;
+    width: 220px;
+    -unity-font-style: bold;
+}
+
+.menu-button:hover {
+    background-color: rgb(130, 80, 30);
+}
+
+.menu-button.quit {
+    background-color: rgb(120, 40, 40);
+    border-color: rgb(80, 20, 20);
+    margin-top: 16px;
+}
+
+.menu-button.quit:hover {
+    background-color: rgb(160, 50, 50);
+}
+
+.slider-label {
+    font-size: 18px;
+    color: rgb(255, 240, 200);
+    -unity-font-style: bold;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.slider {
+    width: 220px;
+    margin-bottom: 8px;
+}
